@@ -208,7 +208,6 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
 }
 
 .home__title-color {
@@ -228,7 +227,6 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: 10;
   width: 260px;
 }
 
@@ -523,5 +521,10 @@ img {
   }
   .home__img {
     width: 450px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .home__img {
+    display: contents;
   }
 }
